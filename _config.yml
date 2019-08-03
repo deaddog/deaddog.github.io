@@ -8,6 +8,8 @@ name: test site again
 # Short bio or description (displayed in the header)
 description: this is bio
 
+fest: fest is best in test
+
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
 
