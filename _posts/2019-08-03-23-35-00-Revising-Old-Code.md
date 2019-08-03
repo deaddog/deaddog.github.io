@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Revisiting old code
+date: 2016-03-23T10:20:00Z
 ---
 
 Today I spent some time on an old project of mine (check it out [here](https://github.com/deaddog/CommandLineParsing)).
