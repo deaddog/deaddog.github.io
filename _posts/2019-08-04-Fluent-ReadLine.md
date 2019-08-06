@@ -8,7 +8,7 @@ One of the main purposes of the command line library ([here](https://github.com/
 ``` csharp
 var number = ColorConsole.ReadLine<int>( ... );
 ```
-For brevity I will remove the `ColorConsole` prefix in the following.
+For brevity I will remove the `ColorConsole`{:.csharp} prefix in the following.
 
 The method supports a range of optional parameters which allows a developer to configure how the method should behave.
 These parameters are:
@@ -34,7 +34,7 @@ Just having more descriptive models will go a long way in making the code more r
 
 The 9 methods support 5 different usecases:
 
-- `ReadLine<T>` (the above) will only return when input can be parsed and validated.
+- `ReadLine<T>`{:.csharp} (the above) will only return when input can be parsed and validated.
 - `TryReadLine<T>` works similar to the above, but Escape will cancel the loop.
 - `ReadLine` will read string-input but does not apply parsing.
 - `TryReadLine` is the try version of the above.
