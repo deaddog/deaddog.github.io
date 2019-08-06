@@ -14,11 +14,13 @@ The method supports a range of optional parameters which allows a developer to c
 These parameters are:
 
 - **Prompt:** A prompt for the user writting before starting to consume input.
+
 ``` csharp
 var age = ReadLine<int>(prompt: "Your age: ");
 
 // Your age: _
 ```
+
 - **DefaultString:** Similar to above, but is editable and considered part of the users input.
 - **CleanUp:** An enum where it can be specified if the prompt and/or input value should be removed before the method returns.
 - **Parser:** Allows a custom parser to be used for value parsing.
