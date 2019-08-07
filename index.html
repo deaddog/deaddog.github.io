@@ -7,7 +7,7 @@ layout: default
     <article class="post">
       <h1>
         <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-        <span class="postheaderdate">{{ post.date | date: "%e. %B '%y %R" }}</span>
+        <span class="postheaderdate">{{ post.date | date: "%e. %B '%y %R" | downcase }}</span>
       </h1>
 
       <div class="entry">
